@@ -30,14 +30,6 @@ class Personne {
         this.argent = argent;
         this.panier = panier;
     }
-    seDeplacer(x) {
-    }
-    
-    payer(x) {
-    }
-    
-    couper(x, y) {
-    }
 }
 
 
