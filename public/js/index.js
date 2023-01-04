@@ -42,15 +42,15 @@ class Personne {
 
 
 
-const maison = new Lieu("maison", []);
-const epicerie = new Epicerie("epicerie", [], []);
-const cuisine = new Cuisine("cuisine", [], []);
+let maison = new Lieu("maison", []);
+let epicerie = new Epicerie("epicerie", [], []);
+let cuisine = new Cuisine("cuisine", [], []);
 
-const poivron = new Ingredient("poivron", "entier", 1);
-const oignon = new Ingredient("oignon", "entier", 2);
-const oeuf = new Ingredient("oeuf", "entier", 4);
-const epice = new Ingredient("epice", "moulu", 3.25);
-const paprika = new Ingredient("paprika", "moulu", 1.5);
-const fromage = new Ingredient("fromage", "coupé", 1.6);
+let poivron = new Ingredient("poivron", "entier", 1);
+let oignon = new Ingredient("oignon", "entier", 2);
+let oeuf = new Ingredient("oeuf", "entier", 4);
+let epice = new Ingredient("epice", "moulu", 3.25);
+let paprika = new Ingredient("paprika", "moulu", 1.5);
+let fromage = new Ingredient("fromage", "coupé", 1.6);
 
-const personnage = new Personne("Maxime", "néant", 100, []);
+let personnage = new Personne("Maxime", "néant", 100, []);
