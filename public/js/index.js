@@ -87,3 +87,12 @@ class Ingrédients {
         this.prix  = prix
     }
 }
+
+class Personne {
+    constructor(nom, lieu, argent, panier) {
+        this.nom = nom;
+        this.lieu = lieu;
+        this.argent = argent;
+        this.panier = panier;
+    }
+}
