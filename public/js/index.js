@@ -108,3 +108,5 @@ const oeuf = new Ingredient("oeuf", "entier", 4);
 const epice = new Ingredient("epice", "moulu", 3.25);
 const paprika = new Ingredient("paprika", "moulu", 1.5);
 const fromage = new Ingredient("fromage", "coupé", 1.6);
+
+const personnage = new Personne("Maxime", "néant", 100, []);
