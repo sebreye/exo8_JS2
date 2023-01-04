@@ -68,7 +68,14 @@
 
 class Lieu {
     constructor(nom, contenu) {
-      this.nom = nom;
-      this.contenu = contenu;
+        this.nom = nom;
+        this.contenu = contenu;
+}
+}
+
+class Cuisine extends Lieu {
+    constructor(nom, contenu, ingrédients) {
+        super(nom, contenu);
+        this.ingrédients = ingrédients;
     }
-  }
+}
