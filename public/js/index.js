@@ -79,3 +79,11 @@ class Cuisine extends Lieu {
         this.ingrédients = ingrédients;
     }
 }
+
+class Ingrédients {
+    constructor(nom, etat, prix) {
+        this.nom = nom;
+        this.etat = etat;
+        this.prix  = prix
+    }
+}
